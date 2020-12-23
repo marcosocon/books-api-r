@@ -1,7 +1,8 @@
 class PostsController < ApplicationController
 
     def index
-        render json: {}
+        @posts = Post.all
+        render json: @posts, status: :ok 
     end
 
 end
