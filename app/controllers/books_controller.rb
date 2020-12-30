@@ -1,4 +1,4 @@
-class BooksController < SecuredController
+class BooksController < ApplicationController
 
     # GET /posts
     def index
