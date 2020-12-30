@@ -1,4 +1,5 @@
-class BooksController < ApplicationController
+class BooksController < SecuredController
+
     # GET /posts
     def index
         @books = Book.all
