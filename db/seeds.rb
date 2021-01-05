@@ -6,4 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Book.create([{title: 'The 4 Hour Workweek', author: 'Timothy Ferris', year: 2001}, {title: 'The Dip', author: 'Seth Godin', year: 2011}])
-Genre.create([{name: 'Sci-fi', book_count: 12, popularity: 5.6}, {name: 'Romance', book_count: 32, popularity: 8.6}])
+Genre.create([{name: 'Sci-fi', book_count: 12, popularity: 5.6}, {name: 'Romance', book_count: 32, popularity: 8.6}, {name: 'Finance', book_count: 31, popularity: 8.3}])
