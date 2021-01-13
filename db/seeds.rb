@@ -1,10 +1,6 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 Book.create([{
     title:'The 4 hour Workweek',
     year: 2010,
@@ -18,7 +14,7 @@ Book.create([{
     sinopsis:'In this iconic bestseller, popular business blogger and bestselling author Seth Godin proves that winners are really just the best quitters. Godin shows that winners quit fast, quit often, and quit without guilt—until they commit to beating the right Dip.',
     image:'https://images-na.ssl-images-amazon.com/images/I/71DGKjYnTHL.jpg' 
   }, {
-    name:'Hamlet',
+    title:'Hamlet',
     year: 2010,
     author:'William Shakespeare',
     sinopsis:'The ghost of the King of Denmark tells his son Hamlet to avenge his murder by killing the new king, Hamlet uncle. Hamlet feigns madness, contemplates life and death, and seeks revenge',
@@ -35,7 +31,7 @@ Book.create([{
     sinopsis:'An age-old vendetta between two powerful families erupts into bloodshed. A group of masked Montagues risk further conflict by gatecrashing a Capulet party. A young lovesick Romeo Montague falls instantly in love with Juliet Capulet.',
     image:'https://m.media-amazon.com/images/I/51c15D+vLsL.jpg'
   }, {
-    name:'To Kill A Mockingbird',
+    title:'To Kill A Mockingbird',
     year: 2010,
     author:'Harper Lee',
     sinopsis:'It is narrated by Scout Finch, a six-year-old tomboy who lives with her lawyer father Atticus and her ten-year-old brother Jem. During the novel Scout, Jem and their friend Dill try to make their reclusive neighbour Boo Radley leave his house. Boo has not been seen in Maycomb since he was a teenager.',
@@ -53,7 +49,7 @@ Book.create([{
     sinopsis:'The novel tells the tragic story of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth.',
     image:'https://images-na.ssl-images-amazon.com/images/I/41iers+HLSL._SX326_BO1,204,203,200_.jpg'
   }, {
-    name:'1984',
+    title:'1984',
     year: 2010,
     author:'George Orwell',
     sinopsis:'1984, George Orwell bleakly dystopian novel about the dangers of totalitarianism, warns against a world governed by propaganda, surveillance, and censorship.',
