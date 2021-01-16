@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   get 'status', to: 'status#check'
   resources :posts, only: [:index]
   resources :genres, only: [:index]
-  resources :books, only: [:index, :show]
+  resources :books, only: [:index, :show, :create]
 
 end
