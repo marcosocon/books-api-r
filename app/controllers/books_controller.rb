@@ -2,7 +2,8 @@ class BooksController < ApplicationController
 
     # GET /posts
     def index
-        @books = Book.all
+        @books = Book.where(nil)
+        @books = @books.filter_by_genre(params[:genre]) if params[:genre].present?
         render json: @books, status: :ok 
     end
     
